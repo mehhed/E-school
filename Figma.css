@@ -1,0 +1,66 @@
+body{
+   background-color:#f5f5f55b ; 
+}
+.top{
+    background-color: #f0fff0;
+}
+.text-end img{
+    width: 100%;
+}
+.secition-2{
+    display: flex;
+    justify-content: center;
+    padding:20px 0px;
+}
+.inner{
+    height: 250px;
+    width: 20%;
+    margin: 0% 4%;
+    background-color: #f8fffb;
+    text-align: center;
+    padding: 20px;
+    overflow:hidden;
+}
+.inner img{
+    height: 50%;
+}
+.inner-2{
+    background-color: white ;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgb(225, 214, 214);
+}
+.man::before{
+   content: "\e216";
+   font-family: fontawesome;
+   margin-right: 5px;
+}
+.calander::before{
+    content: "\f073";
+    font-family: fontawesome;
+    margin-right: 5px;
+ }
+ .courses .card{
+    background-color: white;
+    border: none;
+    border-radius: 20px;
+ }
+.last{
+    height: 200px;
+}
+.last .col-3{
+    height: 100%;
+}
+.last .col-3 img{
+    height: 100%;
+    float: right;
+}
+.last-p{
+    margin-top: 10px;
+    font-weight: bold;
+    align-items: center;
+}
+.footer {
+    background-color: #282531;
+    color: white;
+    margin-top: 130px;
+}
